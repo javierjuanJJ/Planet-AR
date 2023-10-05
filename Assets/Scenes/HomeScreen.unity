@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 77180818}
   - component: {fileID: 77180817}
   - component: {fileID: 77180816}
+  - component: {fileID: 77180819}
   m_Layer: 5
   m_Name: Mars
   m_TagString: Untagged
@@ -205,7 +206,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 77180817}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 77180819}
+        m_TargetAssemblyTypeName: SceneController, Assembly-CSharp
+        m_MethodName: SwitchScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Mars
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &77180817
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -244,6 +257,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 77180814}
   m_CullTransparentMesh: 1
+--- !u!114 &77180819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 77180814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97afcd06d56c67d459453aa043b17f58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &474601158
 GameObject:
   m_ObjectHideFlags: 0
@@ -624,6 +649,7 @@ GameObject:
   - component: {fileID: 1906551571}
   - component: {fileID: 1906551570}
   - component: {fileID: 1906551569}
+  - component: {fileID: 1906551572}
   m_Layer: 5
   m_Name: Earth
   m_TagString: Untagged
@@ -694,7 +720,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1906551570}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1906551572}
+        m_TargetAssemblyTypeName: SceneController, Assembly-CSharp
+        m_MethodName: SwitchScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Earth
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1906551570
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -733,6 +771,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1906551567}
   m_CullTransparentMesh: 1
+--- !u!114 &1906551572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1906551567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97afcd06d56c67d459453aa043b17f58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1943791153
 GameObject:
   m_ObjectHideFlags: 0
